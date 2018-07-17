@@ -2,7 +2,9 @@
     "name": "waterLevelControl",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-modbus": "3.6.1"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows_braxton_wlc.json",
